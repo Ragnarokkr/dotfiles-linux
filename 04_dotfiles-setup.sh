@@ -70,7 +70,6 @@ config_wsl () {
 
 config_packages(){
     local -A packages
-    packages[paru]='paru/paru.conf .config/paru/paru.conf no'
     packages[curl]='curl/.curlrc .curlrc no'
     packages[wget]='wget/.wgetrc .wgetrc no'
     packages[gnupg]='gnupg/gpg.conf .gnupg/gpg.conf no'
