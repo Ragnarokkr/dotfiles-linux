@@ -1,6 +1,10 @@
 #!/usr/bin/env zsh
 
-set -euo pipefail
+if [[ ${+DEBUG} == 0 ]]; then
+    set -euo pipefail
+else
+    set -xeuo pipefail
+fi
 
 work_dir=$(pwd)
 
