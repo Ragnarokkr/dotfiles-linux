@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-set -euo pipefail
-
 typeset -gA COLORS
 COLORS=()
 
