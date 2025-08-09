@@ -73,6 +73,7 @@ config_packages(){
     packages[curl]='curl/.curlrc .curlrc no'
     packages[wget]='wget/.wgetrc .wgetrc no'
     packages[gnupg]='gnupg/gpg.conf .gnupg/gpg.conf no'
+    packages[ohmyposh]='oh-my-posh/atomic-custom.omp.json .config/oh-my-posh/atomic-custom.omp.json no'
     packages[fastfetch]='fastfetch .config/fastfetch yes'
     packages[helix]='helix .config/helix yes'
     packages[gdb]='gdb .config/gdb yes'
