@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 typeset -a packages=(
-    base-devel brotli btop
+    brotli btop
     deno dlang dog
     fastfetch fzf ffmpeg fnm-bin
     gdb gnupg go
