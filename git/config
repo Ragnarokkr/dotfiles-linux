@@ -23,7 +23,7 @@
     template =
 [core]
     editor = helix
-    pager = diff-so-fancy | less --tabs=4 -RFX
+    pager = delta
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
     whitespace = space-before-tab,-indent-with-non-tab,trailing-space
@@ -32,8 +32,13 @@
     submodule = log
 [diff "bin"]
     textconv = hexdump -v -C
+[delta]
+    navigate = true
+    dark = true
 [interactive]
-    diffFilter = diff-so-fancy --patch
+    diffFilter = delta --color-only
+[merge]
+    conflictStyle = zdiff3    
 [push]
     default = simple
     followTags = true
