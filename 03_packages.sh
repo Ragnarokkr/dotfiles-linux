@@ -13,6 +13,7 @@ typeset -a packages=(
     oh-my-posh-bin openssh
     ripgrep reflector rmw
     shfmt
+    tokei
     vivid
     wget wl-clipboard
     yazi
