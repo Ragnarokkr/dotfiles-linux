@@ -4,7 +4,7 @@ typeset -a packages=(
     brotli btop
     deno dlang dog
     fastfetch fzf ffmpeg fnm-bin
-    gdb git-delta gnupg go
+    gdb git-delta glow gnupg go
     helix htmlq hyperfine
     inetutils intel-ucode iproute2
     jq
